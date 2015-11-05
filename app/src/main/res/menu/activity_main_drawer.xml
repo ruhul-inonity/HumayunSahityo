@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_life_story" android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/life_story" />
+        <item android:id="@+id/nav_novels" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/novels" />
+        <item android:id="@+id/nav_movies" android:icon="@android:drawable/ic_media_next"
+            android:title="@string/movies" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
